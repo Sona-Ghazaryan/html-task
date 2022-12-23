@@ -1,0 +1,94 @@
+@import url(./main.css);
+
+@font-face {
+    font-family: Axiforma;
+    src: url(../Fonts/Axiforma-Regular.ttf);
+  }
+
+  .analitics-container{
+    font-family: Axiforma;
+    overflow: hidden;
+  }
+.analitics-header {
+    position: absolute;
+    left: 38.06px;
+    top: 11px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28.88px;
+    font-style: normal;
+    color: white;
+
+}
+
+
+.analitics-container a {
+    position: absolute;
+    left: 81%;
+    top: 12px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #805AD5;
+    text-decoration: none;
+
+}
+.button-container{
+   
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 86.06;
+   
+   
+
+}
+.button{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 36.06px;
+    margin-bottom: 15px;
+    width: 84.8%;
+    height: 47.68px;
+    border: 0.681439px solid #805AD5;
+    filter: drop-shadow(0px 2.72575px 2.72575px rgba(0,0,0,0.25));
+    border-radius: 9.53605px;
+    background:linear-gradient(180deg, #2B3341 0%, rgba(61,73,95,0.00693628)99.99%,rgba(33,39,51,0)100%);
+}
+.button-container p{
+    font-family: Axiforma;
+    font-size: 13.63px;
+    line-height: 21.59px;
+    font-weight: 400;
+    
+}
+button:hover{
+    background-color: #2B3341;
+    cursor: pointer;;
+}
+.subject{
+    margin-left: -60px;
+    color: #996FF8;
+}
+
+.cost{
+    color: white;
+}
+.cycle{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left:40px;
+    background: #805AD5;
+    border-radius: 50%;
+    
+}
+.cycle img{
+    position: absolute;
+    margin-top: 6px;
+    margin-left: -10px;
+}
+.subject2{
+    color: #996FF8;
+   margin-left: 100px;
+}

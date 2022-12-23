@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/futures-panel.css">
+</head>
+
+<body>
+    <div class="futures-container">
+        <h2 class="futures-header"> Futures</h2>
+        <a href="#">See more </a>
+        <div class="stock-panel">
+            <p id="date-today"> </p>
+            <p class="stocks"><span style="color: #61E224;"> <img src="../IMG/up.png" alt="up"> $0.74</span>
+                <span style="color: #FF0000;margin-left: 11px;"><img src="../IMG/down.png" alt="down">0.58%</span>
+            </p>
+            <div class="value"> <span style="margin-top: 6px;">$3,698.58 </span></div>
+        </div>
+        <div class="chart-container">
+            <object type="text/html" data="futures-chart.html" width=100% height=100%>
+            </object>
+
+        </div>
+        <ul class="time-list">
+            <li> <a href="#">1h</a></li>
+            <li> <a href="#">24h</a></li>
+            <li> <a href="#">7d</a></li>
+            <li> <a href="#">1m</a></li>
+            <li><a href="#">3m</a></li>
+            <li> <a href="#">6m</a></li>
+            <li> <a href="#">1y</a></li>
+            <li> <a href="#">All</a> </li>
+        </ul>
+        <div class="balance-panel">
+            <div class="balance">
+                <p>Asset:</p>
+                <hr>
+                <h5>ES</h5>
+            </div>
+            <div class="balance2">
+                <p>Margin Balance</p>
+                <hr>
+                <h5>$12.50</h5>
+            </div>
+            <div class="balance3">
+                <p>Wallet balance</p>
+                <hr>
+                <h5>$5,225.00</h5>
+            </div>
+        </div>
+    </div>
+    <script src="../hh.js"></script>
+</body>
+
+</html>

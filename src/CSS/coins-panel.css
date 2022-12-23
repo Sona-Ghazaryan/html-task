@@ -1,0 +1,90 @@
+@import url(./main.css);
+
+
+.coin-container{
+font-family: Axiforma;
+display: flex;
+justify-content: center;
+
+}
+.coin-header {
+    position: absolute;
+    left: 20.22px;
+    top: 10.93px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: normal;
+    color: white;
+
+}
+.coin-container a {
+    position: absolute;
+    left: 69%;
+    top: 10px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #805AD5;
+    text-decoration: none;
+
+}
+.coin-panel-oval{
+    width: 80%;
+    height:  65%;
+    border: 2.52786px solid #805AD5;
+    background: linear-gradient(180deg,#8177E5 0%, rgba(128, 119, 229, 0.403)100%);
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 60.14px;
+    overflow: hidden;
+}
+.coin-panel-line{
+    position: absolute;
+    width: 212.34px;
+    height: 121.42px;
+    margin-top: 95px;
+    transform: matrix(1,0.05,0.06,1,0,0);
+}
+.time-list{
+    width: 80%;
+   position: absolute;
+   bottom: 30px;
+   display: flex;
+   flex-direction: row;
+   list-style: none;
+   margin-left: 6px;
+}
+ul li a{
+    font-family: Axiforma;
+    margin-left: 12px;
+    font-size: 13.67px;
+    font-weight: 400;
+    line-height: 20.24px;
+    color: white;
+    text-decoration: none;
+}
+.top-side{
+    position: absolute;
+   text-align: center;
+   margin-left: 60px;
+   margin-top: 17px;
+   color: white;
+   font-weight: 400;
+   line-height: 21px;
+   font-size:13.5342px ;
+   font-style: normal;
+   opacity: 0.8;
+
+}
+.bottom-side{
+    position: absolute;
+   text-align: center;
+   bottom: 11px;
+   margin-left:65px ;
+   color: white;
+   font-weight: 400;
+   line-height: 21px;
+   font-size:13.5342px ;
+   font-style: normal;
+   
+}

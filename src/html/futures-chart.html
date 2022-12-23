@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', { 'packages': ['corechart'] });
+    google.charts.setOnLoadCallback(drawChart);
+    window.onresize = drawChart;
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        [' ',  '',],
+        [' ',   0,],
+        [' ', 800,],
+        [' ', 660,],
+        [' ', 810,],
+        [' ', 650,],
+        [' ',1170,],
+        [' ', 900,],
+        [' ', 960,],
+        [' ', 900,],
+        [' ',1170,],
+        [' ', 660,],
+        [' ',1030,],
+      ]);
+
+      var options = {
+        legend: 'none',
+        bar: {groupWidth: '95%'},
+        hAxis: { title: '', titleTextStyle: { color: '#212734' } },
+        vAxis: { minValue: 0, gridlines: { color:'#212734'  } },
+        chartArea: { backgroundColor: '#212734' },
+        isStacked: true,
+        backgroundColor: { fill: 'transparent' },
+        series: { color: '#533a9c' },
+        colors: ['#533a9c'],
+        tooltips: {
+          enabled: false
+        },
+      };
+
+      var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+  </script>
+</head>
+
+<body>
+  <div id="chart_div" style="width: 570px; height: 200px;"></div>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+@import "main.css";
+
+
+@font-face {
+    font-family: Axiforma;
+    src: url(../Fonts/Axiforma-Regular.ttf);
+}
+.panel{
+    font-family: "Axiforma";
+    width: 100%;
+    overflow: hidden;
+   background: #212734;
+    align-items: center;
+    font-weight: 400;
+}
+.panel-head{
+ 
+    position: absolute;
+ font-size: 20px;
+ line-height: 30px;
+ color: #FFFFFF;
+ margin-top: 15px;
+ margin-left: 55px;
+}
+.panel a{
+    position: absolute;
+    left:87%;
+    top: 10px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #805AD5;
+    text-decoration: none;
+   
+}
+.panel object{
+    margin-top: 20px;}
+
+.panel form{
+    position: absolute;
+    margin:17px 0px 0px 182px;
+    
+}   
+#coin{
+    width: 117.64px;
+    height: 30.33px;
+    background: linear-gradient(180deg, #212834 0%,#262F3D 0.01%,#212734 100% );
+    border-radius: 3.97656px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    font-size: 14.71px;
+    line-height: 21.76px;
+    color: white;
+    border: 0.842853px solid #A3A0A0;
+} 
+#date{
+    width: 102.02px;
+    height: 30.33px;
+    margin-left: 10px;
+    background: linear-gradient(180deg, #212834 0%,#262F3D 0.01%,#212734 100% );
+    border-radius: 2.75727px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    font-size: 14.71px;
+    line-height: 21.76px;
+    color: white;
+    border: 0.919089px solid #A3A0A0;
+} 
+
+.icons{
+   
+    position: absolute;
+    width: 102.99px;
+    height: 16.92px;
+    right: 26%;
+    top: 47px;
+    
+}
+.icons a{
+     display: flex;
+   
+}
+.icons img{
+    margin-left: 5px;
+}
+.checkbox{
+    width: 248.13px;
+    height: 27.49px;
+    margin-top: -40px;
+    padding: 7px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: 11%;
+    background: #212834;
+    border-radius: 4.0865px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+.checkbox label{
+    font-family: "Axiforma";
+    font-weight: 400;
+    font-size: 11.51px;
+    line-height: 18.23px;
+    margin-right: 25px;
+    background-color: #212734;
+}
+.checkbox  input{
+   margin-right: 8px; 
+   background-color: #212734 !important;
+}
+.coin1{
+    color:#128994;
+   
+}
+.coin2{
+    color:#58C925;
+}
+.coin3{
+    color: #CAD9FF;
+}

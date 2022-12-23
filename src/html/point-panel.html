@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/points-panel.css">
+
+</head>
+
+<body>
+
+    <div class="panel">
+
+        <p class="panel-head"> Total Points</p>
+        <a href="#">See more </a>
+        <form>
+            <select id="coin" name="coin">
+                <option value="All">All</option>
+            </select>
+            <select id="date" name="date">
+                <option value="1 year">1 year</option>
+            </select>
+        </form>
+        <div class="icons">
+            <a href="#"> <img src="../IMG/minus.png">
+                <img src="../IMG/plus.png">
+                <img src="../IMG/plus (2).png">
+                <img src="../IMG/home.png">
+                <img src="../IMG/hend.png">
+            </a>
+
+
+        </div>
+        <object type="text/html" data="chart.html" width=105% height=300px>
+        </object>
+    </div>
+    <div class="checkbox">
+        <form>
+            <label class="coin1">
+                <input type="checkbox" checked="checked" id="coin1"> USD </label>
+            <label class="coin2">
+                <input type="checkbox" checked="checked" id="coin2"> BTC </label>
+            <label class="coin3">
+                <input type="checkbox" id="coin3"> ETH </label>
+
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<html>
+  <head>
+   
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+      window.onresize =  drawChart ;
+      function drawChart() {
+        const data = google.visualization.arrayToDataTable([
+           [' ', '', ],
+          ['May2021',  40000,   ],
+          ['Jun 2021',  85000,   ],
+          ['Jul 2021',  40000,    ],
+          ['Aug 2021',  150000,   ],
+          ['Sep 2021',  92000,   ],
+          ['Oct 2021',  145000,   ],
+          ['Nov 2021',  87000,    ],
+          ['Dec 2021',  200000,   ],
+        ]);
+
+        const options = {
+          title: ' ',
+          'max-width':700, 
+          'height':290,
+          curveType: 'function',
+          legend: { position: 'none' },
+          tooltips: {
+            enabled: false
+         },
+          colors: ['#805AD5'],
+          backgroundColor: { fill:'transparent' },   
+          chartArea: { backgroundColor: '#212734' },
+          backgroundColor: '#212734',
+          titleTextStyle: {
+        color: 'white'
+    },
+    hAxis: {
+        textStyle: {
+            color: 'white' ,
+             fontSize:12
+        },
+        titleTextStyle: {
+            color: 'red',
+          
+        }
+    },
+    vAxis: {
+        textStyle: {
+            color: 'white'
+        },
+        titleTextStyle: {
+            color: 'red',
+          
+        }
+    },
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+  
+      
+    <div id="curve_chart" style="width:100%; height:98%;color:white">
+   
+    </div>
+   
+  </body>
+</html>

@@ -1,0 +1,172 @@
+@import url(main.css);
+
+
+
+.futures-container {
+    font-family: Axiforma;
+    width: 100%;
+    height: 290.31px;
+    overflow: hidden;
+}
+
+.futures-container a {
+    position: absolute;
+    left: 81%;
+    top: 15px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #805AD5;
+    text-decoration: none;
+
+}
+
+.futures-header {
+    font-weight: 400;
+    font-size: 15.87px;
+    line-height: 23px;
+    color: white;
+    margin: 15.24px 0px 0px 15.27px;
+}
+
+object {
+    margin-top: -55px;
+    margin-left: -84px;
+
+}
+
+.chart-container {
+    position: relative;
+    margin-left: 24.21px;
+    overflow: hidden;
+    width: 150%;
+    height: 80%;
+    color: white;
+
+}
+
+.stock-panel {
+    max-width: 412.08px;
+    height: 79px;
+    position: relative;
+    margin: 4px 0px 0px 26.21px;
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #2B3341 0%, rgba(61, 73, 95, 0.00693628)99.99%, rgba(33, 39, 51, 0)100%);
+    border: 0.482541px solid #686868;
+}
+
+#date-today {
+    font-family: Axiforma;
+    font-weight: 500;
+    font-size: 11.26px;
+    line-height: 16.67px;
+    color: white;
+}
+
+.stocks {
+    font-family: Arial, Helvetica;
+    font-weight: 500;
+    font-size: 16.91px;
+    line-height: 19.82px;
+    margin-top: 10px;
+}
+
+.value {
+    width: 10rem;
+    height: 3.063rem;
+    position: absolute;
+    right: 32.92px;
+    top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+    background: linear-gradient(180deg, #2B3341 0%, rgba(61, 73, 95, 0.00693628)99.99%, rgba(33, 39, 51, 0)100%);
+    border: 0.239945px solid #686868;
+    border-radius: 2.48626px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.balance {
+    position: absolute;
+    font-family: Axiforma;
+    width: 37px;
+    height: 19px;
+    top: 85%;
+    left: 34.22px;
+    color: white;
+    font-weight: 300;
+    font-size: 14.7px;
+    line-height: 18.79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+hr {
+    width: 65.07px;
+    height: 0px;
+    margin: 10px 0px;
+    border: 0.786545px solid #DCCDFF;
+}
+
+.time-list {
+    width: 80%;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    right: 80%;
+    top:63%
+}
+
+.time-list a {
+    font-family: Axiforma;
+    margin-left: 16px;
+    font-size: 17.66px;
+    font-weight: 400;
+    line-height: 26.14px;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.balance2 {
+    position: absolute;
+    left: 30%;
+    top: 78%;
+    color: white;
+    font-weight: 300;
+    font-size: 14.7px;
+    line-height: 18.79px;
+
+}
+
+.balance2 hr {
+    width: 115.36px;
+    height: 0px;
+    margin: 10px 0px;
+    border: 0.786545px solid #DCCDFF;
+}
+
+.balance3 {
+    position: absolute;
+    left: 61%;
+    top: 78%;
+    color: white;
+    font-weight: 300;
+    font-size: 14.7px;
+    line-height: 18.79px;
+}
+
+.balance3 hr {
+    width: 110.16px;
+    height: 0px;
+    margin: 10px 0px;
+    border: 0.786545px solid #DCCDFF;
+}
