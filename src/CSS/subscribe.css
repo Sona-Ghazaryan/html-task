@@ -12,6 +12,7 @@
     font-style: normal;
     line-height: 25.75px;
     color: white;
+    
 }
 
 button {
@@ -22,11 +23,12 @@ button {
     background-color: #a37df9;
     color: white;
     margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
 }
-
-
-
-
+ button:hover{
+    background-color: #ab8cf4;
+ }
 
 .subscribe-panel img {
     position: absolute;
